@@ -1,0 +1,121 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+     padding: 0;
+     margin: 0 0 0 250px;
+     list-style: none;
+}
+nav
+{
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    width: 70px;
+    margin-left: 65px ;
+    margin-right: 45px;
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold ;
+    color: rgb(118, 215, 237);
+    text-align: center;
+
+}
+li a:hover 
+{
+    background-color: gray;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(2, 186, 227);
+}
+.logo
+{
+    position: absolute;
+    margin-top: 5px ;
+    margin-left: 10px;
+}
+.enough
+{
+    width: 500px;
+    height: 200px;
+}
+.cards-css
+{
+    margin: 10px 5px 0 5px;
+    display: flex;
+    float: left;
+}
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    color: white;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
